@@ -88,7 +88,7 @@ const App = () => {
           </button>
         </form>
 
-        <span className="text-error fs-6">{errorMessage}</span>
+        <span className="text-danger" style={{ fontSize: "0.875rem" }}>{errorMessage}</span>
       </div>
     </div>
   )
