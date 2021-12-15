@@ -1,11 +1,8 @@
 import { SetStateAction, useState } from 'react'
 import { ethers } from 'ethers'
 import Polygon_abi from './Polygon_abi.json'
-interface Props {
 
-}
-
-const App = (props: Props) => {
+const App = () => {
   const [errorMessage, setErrorMessage] = useState<string | null>(null);
   const [account, setAccount] = useState<string | null>(null);
   const [btnText, setBtnText] = useState('Connect Wallet');
