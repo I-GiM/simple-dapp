@@ -88,7 +88,7 @@ const App = () => {
           </button>
         </form>
 
-        <span>{errorMessage}</span>
+        <span className="text-error fs-6">{errorMessage}</span>
       </div>
     </div>
   )
